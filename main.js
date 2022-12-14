@@ -11,6 +11,9 @@ function main(event) {
       try {
         window.oldTitle = head.getElementsByTagName("title")[0].innerHTML
       } catch {
+        var title = document.createElement("title")
+        title.innerHtml = ""
+        head.appendChild(title)
         window.oldTitle = false
       }
     }
@@ -23,6 +26,10 @@ function main(event) {
           }
         }
       } catch {
+        var icon = document.createElement("link")
+        icon.rel = "icon"
+        icon.href = ""
+        head.appendChild(icon)
         window.oldIcon = false
       }
     }
