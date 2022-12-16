@@ -27,6 +27,7 @@ function main(event) {
         var icon = document.createElement("link")
         icon.rel = "icon"
         icon.href = ""
+        icon.type = "image/x-icon"
         head.appendChild(icon)
         window.oldIcon = false
       }
