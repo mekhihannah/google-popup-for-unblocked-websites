@@ -3,13 +3,15 @@ when a key is pressed that the site chooses it makes everything hidden and pops 
 <br/>
 to change the key you press for the popup its
 ```
-<script> window.teachKey = "keyhere" </script>
-<script src="the google popup src"></script>
+<script src="https://cdn.jsdelivr.net/gh/tympanicblock61/google-popup-for-unblocked-websites@main/main.js" key="keyhere"></script>
+example:
+  <script src="https://cdn.jsdelivr.net/gh/tympanicblock61/google-popup-for-unblocked-websites@main/main.js" key=";"></script>
+another example:
+  <script src="https://cdn.jsdelivr.net/gh/tympanicblock61/google-popup-for-unblocked-websites@main/main.js" key="l"></script>
 ```
 <br/>
 
 todo
 ```
-if there is no icon to start with create one and add it
-if no title make one and add it
+nothing
 ```
