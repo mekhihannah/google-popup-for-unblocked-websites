@@ -1,9 +1,7 @@
 const head = document.getElementsByTagName("head")[0] || document.head
 const body = document.getElementsByTagName("body")[0] || document.body
 window.teachers = false
-if (typeof(window.teachKey) !== "string") {
-  window.teachKey = ","
-}
+window.teachKey = document.currentScript.getAttribute('key') || ","
 
 function main(event) {
   if (event.key === window.teachKey) {
